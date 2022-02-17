@@ -36,7 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\GameMain\ProcedureExample.cs" />
+     <Compile Include="Assets\GameMain\Script\ProcedureExample.cs" />
      <None Include="Assets\GameFramework\Libraries\link.xml" />
      <None Include="Assets\GameFramework\Libraries\GameFramework.xml" />
     <Reference Include="UnityEngine">

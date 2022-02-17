@@ -319,3 +319,119 @@ System memory in use after: 155.7 MB.
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2130.
 Total: 1.606071 ms (FindLiveObjects: 0.151066 ms CreateObjectMapping: 0.047010 ms MarkObjects: 1.365187 ms  DeleteObjects: 0.042131 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002717 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.149 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1667 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.8 MB.
+System memory in use after: 155.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2133.
+Total: 1.614111 ms (FindLiveObjects: 0.139857 ms CreateObjectMapping: 0.047348 ms MarkObjects: 1.388454 ms  DeleteObjects: 0.037799 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 504.324837 seconds.
+  path: Assets/GameMain/Scene
+  artifactKey: Guid(21fc46d4a027a45368ca9e0b2a77c064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Scene using Guid(21fc46d4a027a45368ca9e0b2a77c064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38556d21921b989c0349fbc9548ad74e') in 0.004219 seconds
+  Import took 0.006652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011729 seconds.
+  path: Assets/GameMain/Scene
+  artifactKey: Guid(21fc46d4a027a45368ca9e0b2a77c064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Scene using Guid(21fc46d4a027a45368ca9e0b2a77c064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38556d21921b989c0349fbc9548ad74e') in 0.001302 seconds
+  Import took 0.003625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.251065 seconds.
+  path: Assets/GameMain/Script
+  artifactKey: Guid(b722e804484d24451a8e8b67c779548e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script using Guid(b722e804484d24451a8e8b67c779548e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1cfe33914fc824258f4a23fc083063f') in 0.001474 seconds
+  Import took 0.004243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000890 seconds.
+  path: Assets/GameMain/Script
+  artifactKey: Guid(b722e804484d24451a8e8b67c779548e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script using Guid(b722e804484d24451a8e8b67c779548e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1cfe33914fc824258f4a23fc083063f') in 0.001617 seconds
+  Import took 0.004117 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002769 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.077 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1667 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.0 MB.
+System memory in use after: 156.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2136.
+Total: 1.703965 ms (FindLiveObjects: 0.140376 ms CreateObjectMapping: 0.047712 ms MarkObjects: 1.473814 ms  DeleteObjects: 0.041322 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001951 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.096 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1667 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.1 MB.
+System memory in use after: 156.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2139.
+Total: 1.582270 ms (FindLiveObjects: 0.134241 ms CreateObjectMapping: 0.043252 ms MarkObjects: 1.367846 ms  DeleteObjects: 0.036339 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.885605 seconds.
+  path: Assets/GameMain/Res
+  artifactKey: Guid(500824ba430ae48489376cff803a869b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res using Guid(500824ba430ae48489376cff803a869b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d085d36cd0a1b6bb373ee33c48a9550') in 0.003982 seconds
+  Import took 0.006427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.668243 seconds.
+  path: Assets/GameMain/Res/floot
+  artifactKey: Guid(29460fac7a4e7457892b881f5e9c45bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/floot using Guid(29460fac7a4e7457892b881f5e9c45bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6b5a0efbfeb44bf18ad9908dd00e81') in 0.001440 seconds
+  Import took 0.004166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.590491 seconds.
+  path: Assets/GameMain/Res/floor
+  artifactKey: Guid(29460fac7a4e7457892b881f5e9c45bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/floor using Guid(29460fac7a4e7457892b881f5e9c45bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0da677b14514fe7f071ecf694bc287') in 0.001005 seconds
+  Import took 0.003590 seconds .
+
