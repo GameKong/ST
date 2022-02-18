@@ -3744,3 +3744,484 @@ Received Import Request.
 Start importing Assets/GameMain/Res/player/Eri/Texture using Guid(df05827efd593ae449157f55971e977e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c98b7f5ce6375112c1a00b1101b764a') in 0.000856 seconds
   Import took 0.003604 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 5341.418904 seconds.
+  path: Assets/GameMain/DataTables/Entity.txt
+  artifactKey: Guid(0b46a2226043a40ebaf91ed09f6cc578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/DataTables/Entity.txt using Guid(0b46a2226043a40ebaf91ed09f6cc578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d84b6c9b6bdd38b6b0d2eba61daa41') in 0.005587 seconds
+  Import took 0.009706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001251 seconds.
+  path: Assets/GameMain/DataTables/Entity.txt
+  artifactKey: Guid(0b46a2226043a40ebaf91ed09f6cc578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/DataTables/Entity.txt using Guid(0b46a2226043a40ebaf91ed09f6cc578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d84b6c9b6bdd38b6b0d2eba61daa41') in 0.004171 seconds
+  Import took 0.007454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.261144 seconds.
+  path: Assets/GameMain/Script/Entity
+  artifactKey: Guid(73c29c853156a483cbf9dc6a294df47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Entity using Guid(73c29c853156a483cbf9dc6a294df47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3159bee53590009408de2746896a61') in 0.001703 seconds
+  Import took 0.004943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1743.260616 seconds.
+  path: Assets/GameMain/Script/Entity/EnityData
+  artifactKey: Guid(01314047897734125b6f70ebe8cbff39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Entity/EnityData using Guid(01314047897734125b6f70ebe8cbff39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e7b5475f79679640efa71cf813eeeec') in 0.001807 seconds
+  Import took 0.005101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.931892 seconds.
+  path: Assets/GameMain/Script/Entity/EntityLogic
+  artifactKey: Guid(2b8cba8eef2fa436db90fcb41fc94ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Entity/EntityLogic using Guid(2b8cba8eef2fa436db90fcb41fc94ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08dbbeff05163a466cfad24614e618d6') in 0.001578 seconds
+  Import took 0.004820 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005064 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.528 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1674 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 274.4 MB.
+System memory in use after: 272.7 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2236.
+Total: 4.748974 ms (FindLiveObjects: 0.272385 ms CreateObjectMapping: 0.073853 ms MarkObjects: 1.999562 ms  DeleteObjects: 2.401262 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 702.934778 seconds.
+  path: Assets/GameMain/Res/Enti
+  artifactKey: Guid(f44a2966c2c074dedb1ab26ec7691c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/Enti using Guid(f44a2966c2c074dedb1ab26ec7691c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25cb0683912cea5c86075a8936de214d') in 0.006187 seconds
+  Import took 0.009689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.923877 seconds.
+  path: Assets/GameMain/Entities
+  artifactKey: Guid(0c087aeeea70c4ac383e4366f6b98085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Entities using Guid(0c087aeeea70c4ac383e4366f6b98085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '683913a810a33a8713522a029c4d5fec') in 0.003183 seconds
+  Import took 0.006979 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001652 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.401 seconds
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(f3944d3ea904b4214be79333bfd2fb12) path("Assets/GameMain/Script/Entity/EntityExtension.cs") state(2)
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1674 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 274.5 MB.
+System memory in use after: 272.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2239.
+Total: 4.053384 ms (FindLiveObjects: 0.195978 ms CreateObjectMapping: 0.064997 ms MarkObjects: 1.693101 ms  DeleteObjects: 2.098284 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.963714 seconds.
+  path: Assets/GameMain/Script/Entity/EntityExtension.cs
+  artifactKey: Guid(f3944d3ea904b4214be79333bfd2fb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Entity/EntityExtension.cs using Guid(f3944d3ea904b4214be79333bfd2fb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17bac3e0028ed7381ea0e7f0701927b') in 0.007633 seconds
+  Import took 0.010708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002241 seconds.
+  path: Assets/GameMain/Script/Entity/EntityExtension.cs
+  artifactKey: Guid(f3944d3ea904b4214be79333bfd2fb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Entity/EntityExtension.cs using Guid(f3944d3ea904b4214be79333bfd2fb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17bac3e0028ed7381ea0e7f0701927b') in 0.003876 seconds
+  Import took 0.007634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.493901 seconds.
+  path: Assets/GameMain/Script/Entity/EntityExtension.cs
+  artifactKey: Guid(f3944d3ea904b4214be79333bfd2fb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Entity/EntityExtension.cs using Guid(f3944d3ea904b4214be79333bfd2fb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b030c0799520c4f6048b331a27a20fa') in 0.003783 seconds
+  Import took 0.006877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.492875 seconds.
+  path: Assets/GameMain/Script/Entity/EnityData/EntityData.cs
+  artifactKey: Guid(93f52a7cde2034143b183f4b20f3f397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Entity/EnityData/EntityData.cs using Guid(93f52a7cde2034143b183f4b20f3f397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ffcb4da93653c40ab329f361f4913e1') in 0.003801 seconds
+  Import took 0.006746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002234 seconds.
+  path: Assets/GameMain/Script/Entity/EnityData/EntityData.cs
+  artifactKey: Guid(93f52a7cde2034143b183f4b20f3f397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Entity/EnityData/EntityData.cs using Guid(93f52a7cde2034143b183f4b20f3f397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ffcb4da93653c40ab329f361f4913e1') in 0.004283 seconds
+  Import took 0.008155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.265565 seconds.
+  path: Assets/GameMain/Script/Entity/EnityData/AircraftData.cs
+  artifactKey: Guid(9632ed7b07c414775816365a947f815c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Entity/EnityData/AircraftData.cs using Guid(9632ed7b07c414775816365a947f815c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e211ffa4b07ac347ebc2b4f9e0370cd2') in 0.003604 seconds
+  Import took 0.006530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001688 seconds.
+  path: Assets/GameMain/Script/Entity/EnityData/AircraftData.cs
+  artifactKey: Guid(9632ed7b07c414775816365a947f815c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Entity/EnityData/AircraftData.cs using Guid(9632ed7b07c414775816365a947f815c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e211ffa4b07ac347ebc2b4f9e0370cd2') in 0.003333 seconds
+  Import took 0.006071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.458341 seconds.
+  path: Assets/GameMain/Script/Entity/EnityData/PlayerData.cs
+  artifactKey: Guid(9632ed7b07c414775816365a947f815c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Entity/EnityData/PlayerData.cs using Guid(9632ed7b07c414775816365a947f815c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b35e66827584f879b974cb6877810b1') in 0.004113 seconds
+  Import took 0.007024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.603290 seconds.
+  path: Assets/GameMain/Script/Entity/EnityData/PlayerData.cs
+  artifactKey: Guid(9632ed7b07c414775816365a947f815c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Entity/EnityData/PlayerData.cs using Guid(9632ed7b07c414775816365a947f815c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e30ccd8e5a4786fea3321e47a4dcfacf') in 0.003685 seconds
+  Import took 0.006646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 161.784659 seconds.
+  path: Assets/GameMain/Script/Entity/EnityData/PlayerData.cs
+  artifactKey: Guid(9632ed7b07c414775816365a947f815c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Entity/EnityData/PlayerData.cs using Guid(9632ed7b07c414775816365a947f815c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056c7e82a5cae298b3e8096fa198cc88') in 0.004064 seconds
+  Import took 0.006993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.634733 seconds.
+  path: Assets/GameMain/Script/Entity/EntityLogic/TargetableObject.cs
+  artifactKey: Guid(411ffa864a2e1464bb9719efb89ba601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Entity/EntityLogic/TargetableObject.cs using Guid(411ffa864a2e1464bb9719efb89ba601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71663dc3effc1d8ac70d278e8345c8af') in 0.003574 seconds
+  Import took 0.006446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004017 seconds.
+  path: Assets/GameMain/Script/Entity/EntityLogic/TargetableObject.cs
+  artifactKey: Guid(411ffa864a2e1464bb9719efb89ba601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Entity/EntityLogic/TargetableObject.cs using Guid(411ffa864a2e1464bb9719efb89ba601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71663dc3effc1d8ac70d278e8345c8af') in 0.003722 seconds
+  Import took 0.006683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.494961 seconds.
+  path: Assets/GameMain/Script/Entity/EntityLogic/TargetData.cs
+  artifactKey: Guid(411ffa864a2e1464bb9719efb89ba601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Entity/EntityLogic/TargetData.cs using Guid(411ffa864a2e1464bb9719efb89ba601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610435ee68c9c55e29e582374428d8bd') in 0.003809 seconds
+  Import took 0.006755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037652 seconds.
+  path: Assets/GameMain/Script/Entity/EntityLogic/MyAircraft.cs
+  artifactKey: Guid(e08b8d1dac80b483f9c64ade7a7b0d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Entity/EntityLogic/MyAircraft.cs using Guid(e08b8d1dac80b483f9c64ade7a7b0d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43353db09b514b6bff167f64017401e9') in 0.003997 seconds
+  Import took 0.007046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.463893 seconds.
+  path: Assets/GameMain/Script/Entity/EntityLogic/Player.cs
+  artifactKey: Guid(e08b8d1dac80b483f9c64ade7a7b0d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Entity/EntityLogic/Player.cs using Guid(e08b8d1dac80b483f9c64ade7a7b0d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '773317b68b829d130f68585b1e99782b') in 0.003916 seconds
+  Import took 0.006715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035814 seconds.
+  path: Assets/GameMain/Script/Entity/EntityLogic/Entity.cs
+  artifactKey: Guid(3a7029e7c056042938388c10ac91f913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Entity/EntityLogic/Entity.cs using Guid(3a7029e7c056042938388c10ac91f913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a54c8a546f7e5bd3b6c0f9ea476e19') in 0.003885 seconds
+  Import took 0.006828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 175.244776 seconds.
+  path: Assets/GameMain/Script/Entity/EntityLogic/Entity.cs
+  artifactKey: Guid(3a7029e7c056042938388c10ac91f913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Entity/EntityLogic/Entity.cs using Guid(3a7029e7c056042938388c10ac91f913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429d24d8f58525de0abef0fa314b48f4') in 0.004013 seconds
+  Import took 0.007290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.851825 seconds.
+  path: Assets/GameMain/Script/Entity/EnityData/TargetableObjectData.cs
+  artifactKey: Guid(0de01ae0a59f4434b9fd1facfdbcba5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Entity/EnityData/TargetableObjectData.cs using Guid(0de01ae0a59f4434b9fd1facfdbcba5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd0c2272a8a1ea8d14d86ab88ef2cc16') in 0.003798 seconds
+  Import took 0.006720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.978044 seconds.
+  path: Assets/GameMain/Script/Entity/EnityData/TargetData.cs
+  artifactKey: Guid(0de01ae0a59f4434b9fd1facfdbcba5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Entity/EnityData/TargetData.cs using Guid(0de01ae0a59f4434b9fd1facfdbcba5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6e5273caf6809e3b5b6c930980016c') in 0.003858 seconds
+  Import took 0.006730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.770115 seconds.
+  path: Assets/GameMain/Script/Entity/EnityData/TargetData.cs
+  artifactKey: Guid(0de01ae0a59f4434b9fd1facfdbcba5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Entity/EnityData/TargetData.cs using Guid(0de01ae0a59f4434b9fd1facfdbcba5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714588245fbeb52c48c85d7609d35a22') in 0.003950 seconds
+  Import took 0.006876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 288.677733 seconds.
+  path: Assets/GameMain/Script/Entity/EntityLogic/EntityLogicBase.cs
+  artifactKey: Guid(3a7029e7c056042938388c10ac91f913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Entity/EntityLogic/EntityLogicBase.cs using Guid(3a7029e7c056042938388c10ac91f913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957c6d491365edf790ae3e88ec24ed13') in 0.003686 seconds
+  Import took 0.006606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 202.729971 seconds.
+  path: Assets/GameMain/Script/Define
+  artifactKey: Guid(ed0111bbfa0564a2aabf02874d5af4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Define using Guid(ed0111bbfa0564a2aabf02874d5af4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9134fa6fdc1859e577cfa469d93c03e7') in 0.001637 seconds
+  Import took 0.005053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.397079 seconds.
+  path: Assets/GameMain/Script/Define/Constant
+  artifactKey: Guid(492453c583db64e5fbd963ffa4e9fa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Define/Constant using Guid(492453c583db64e5fbd963ffa4e9fa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba6810e66f68f2d1dd2a1b34efc454e') in 0.001650 seconds
+  Import took 0.004680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.239699 seconds.
+  path: Assets/GameMain/Script/Define/Emun
+  artifactKey: Guid(688cb92ac6b2842d899f7e56b189c3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Define/Emun using Guid(688cb92ac6b2842d899f7e56b189c3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24cc2937eb75167e3b27aa5d37b2cffb') in 0.001638 seconds
+  Import took 0.004770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.771916 seconds.
+  path: Assets/GameMain/Script/Define/Emun/CampType.cs
+  artifactKey: Guid(897d7d8f49af84cdaa8c767e742b09e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Define/Emun/CampType.cs using Guid(897d7d8f49af84cdaa8c767e742b09e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e733e3e83c6be6883a85d3642abcbd39') in 0.003097 seconds
+  Import took 0.005606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002185 seconds.
+  path: Assets/GameMain/Script/Define/Emun/CampType.cs
+  artifactKey: Guid(897d7d8f49af84cdaa8c767e742b09e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Define/Emun/CampType.cs using Guid(897d7d8f49af84cdaa8c767e742b09e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e733e3e83c6be6883a85d3642abcbd39') in 0.003485 seconds
+  Import took 0.006677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.360984 seconds.
+  path: Assets/GameMain/Script/Define/Emun/CampType.cs
+  artifactKey: Guid(897d7d8f49af84cdaa8c767e742b09e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Define/Emun/CampType.cs using Guid(897d7d8f49af84cdaa8c767e742b09e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0be3fb6564b376d8052e3d4c343cfbe') in 0.004211 seconds
+  Import took 0.007638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002560 seconds.
+  path: Assets/GameMain/Script/Define/Emun/CampType.cs
+  artifactKey: Guid(897d7d8f49af84cdaa8c767e742b09e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Define/Emun/CampType.cs using Guid(897d7d8f49af84cdaa8c767e742b09e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0be3fb6564b376d8052e3d4c343cfbe') in 0.004360 seconds
+  Import took 0.007658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.743469 seconds.
+  path: Assets/GameMain/Script/Define/Constant/Constant.Layer.cs
+  artifactKey: Guid(aa3592f6823e74d4cb150409e66082e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Define/Constant/Constant.Layer.cs using Guid(aa3592f6823e74d4cb150409e66082e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c249279d9e6a93f712e0c8b153972ea') in 0.004143 seconds
+  Import took 0.007330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 147.878113 seconds.
+  path: Assets/GameMain/Script/Define/Constant/Constant.Layer.cs
+  artifactKey: Guid(aa3592f6823e74d4cb150409e66082e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Define/Constant/Constant.Layer.cs using Guid(aa3592f6823e74d4cb150409e66082e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18915cbfff65340a54fa218a285b4292') in 0.003788 seconds
+  Import took 0.007204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003476 seconds.
+  path: Assets/GameMain/Script/Define/Constant/Constant.Layer.cs
+  artifactKey: Guid(aa3592f6823e74d4cb150409e66082e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Define/Constant/Constant.Layer.cs using Guid(aa3592f6823e74d4cb150409e66082e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18915cbfff65340a54fa218a285b4292') in 0.003849 seconds
+  Import took 0.006689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 156.201873 seconds.
+  path: Assets/GameMain/Script/Entity/EnityData/EntityData.cs
+  artifactKey: Guid(93f52a7cde2034143b183f4b20f3f397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Entity/EnityData/EntityData.cs using Guid(93f52a7cde2034143b183f4b20f3f397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe16ba36a1d7bda09a1988487319fbc9') in 0.003590 seconds
+  Import took 0.006501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001557 seconds.
+  path: Assets/GameMain/Script/Entity/EnityData/EntityData.cs
+  artifactKey: Guid(93f52a7cde2034143b183f4b20f3f397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Entity/EnityData/EntityData.cs using Guid(93f52a7cde2034143b183f4b20f3f397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe16ba36a1d7bda09a1988487319fbc9') in 0.003854 seconds
+  Import took 0.007068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.605471 seconds.
+  path: Assets/GameMain/Script/Entity/EnityData/PlayerData.cs
+  artifactKey: Guid(9632ed7b07c414775816365a947f815c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Entity/EnityData/PlayerData.cs using Guid(9632ed7b07c414775816365a947f815c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65a984a7b999681326287fd851b5db5') in 0.003632 seconds
+  Import took 0.006616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.987771 seconds.
+  path: Assets/GameMain/Script/Entity/EntityLogic/Player.cs
+  artifactKey: Guid(e08b8d1dac80b483f9c64ade7a7b0d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Entity/EntityLogic/Player.cs using Guid(e08b8d1dac80b483f9c64ade7a7b0d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96376f7d262ec730f2efa347f538524') in 0.003661 seconds
+  Import took 0.006596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.100231 seconds.
+  path: Assets/GameMain/Script/Entity/EntityLogic/PlayerLogic.cs
+  artifactKey: Guid(e08b8d1dac80b483f9c64ade7a7b0d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Entity/EntityLogic/PlayerLogic.cs using Guid(e08b8d1dac80b483f9c64ade7a7b0d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cba1152130b70293090fc161080b895') in 0.003872 seconds
+  Import took 0.006755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.500738 seconds.
+  path: Assets/GameMain/Script/Entity/EntityLogic/TargetData.cs
+  artifactKey: Guid(411ffa864a2e1464bb9719efb89ba601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Entity/EntityLogic/TargetData.cs using Guid(411ffa864a2e1464bb9719efb89ba601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52568a4fff1a9d02004ba5bf8c61f17') in 0.004503 seconds
+  Import took 0.007943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001157 seconds.
+  path: Assets/GameMain/Script/Entity/EntityLogic/TargetData.cs
+  artifactKey: Guid(411ffa864a2e1464bb9719efb89ba601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Entity/EntityLogic/TargetData.cs using Guid(411ffa864a2e1464bb9719efb89ba601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52568a4fff1a9d02004ba5bf8c61f17') in 0.004424 seconds
+  Import took 0.009619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.573034 seconds.
+  path: Assets/GameMain/Script/Entity/EntityLogic/TargetLogic.cs
+  artifactKey: Guid(411ffa864a2e1464bb9719efb89ba601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Entity/EntityLogic/TargetLogic.cs using Guid(411ffa864a2e1464bb9719efb89ba601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73039d418f456a52d9923e172b2d6a5c') in 0.003906 seconds
+  Import took 0.006743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 429.974291 seconds.
+  path: Assets/GameMain/Script/Define/Constant/Constant.AssetPriority.cs
+  artifactKey: Guid(039b6effafe864e9cbe4549949c4e0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Define/Constant/Constant.AssetPriority.cs using Guid(039b6effafe864e9cbe4549949c4e0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912eece12f5213ee4bb8f565c2a03c95') in 0.003099 seconds
+  Import took 0.005731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000520 seconds.
+  path: Assets/GameMain/Script/Define/Constant/Constant.AssetPriority.cs
+  artifactKey: Guid(039b6effafe864e9cbe4549949c4e0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Define/Constant/Constant.AssetPriority.cs using Guid(039b6effafe864e9cbe4549949c4e0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912eece12f5213ee4bb8f565c2a03c95') in 0.003577 seconds
+  Import took 0.006225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.987650 seconds.
+  path: Assets/GameMain/Script/Define/Constant/Constant.AssetPriority.cs
+  artifactKey: Guid(039b6effafe864e9cbe4549949c4e0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Define/Constant/Constant.AssetPriority.cs using Guid(039b6effafe864e9cbe4549949c4e0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6b6af2092d53f9f02f92fcbf87a94c') in 0.004016 seconds
+  Import took 0.008213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.538773 seconds.
+  path: Assets/GameMain/Script/Utility
+  artifactKey: Guid(0d94145739ac64c5b92854e57303868f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Utility using Guid(0d94145739ac64c5b92854e57303868f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06825aab67af4d4aa3b2e9796fa4d8b9') in 0.001093 seconds
+  Import took 0.004542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/GameMain/Script/Utility
+  artifactKey: Guid(0d94145739ac64c5b92854e57303868f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Utility using Guid(0d94145739ac64c5b92854e57303868f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06825aab67af4d4aa3b2e9796fa4d8b9') in 0.001417 seconds
+  Import took 0.004576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.404491 seconds.
+  path: Assets/GameMain/Script/Procedure
+  artifactKey: Guid(b6306dd82f3ad41528975c9151b3ebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Procedure using Guid(b6306dd82f3ad41528975c9151b3ebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ceaf34cf6a173890a6b5ae16ff4d4a8') in 0.001546 seconds
+  Import took 0.004867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.365643 seconds.
+  path: Assets/GameMain/Script/Utility/AssetUtility.cs
+  artifactKey: Guid(7af6059dd504240f888f96ee7a4fd8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Utility/AssetUtility.cs using Guid(7af6059dd504240f888f96ee7a4fd8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c9b6b6563474d57928279825ea82a4') in 0.003773 seconds
+  Import took 0.006940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001804 seconds.
+  path: Assets/GameMain/Script/Utility/AssetUtility.cs
+  artifactKey: Guid(7af6059dd504240f888f96ee7a4fd8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Utility/AssetUtility.cs using Guid(7af6059dd504240f888f96ee7a4fd8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c9b6b6563474d57928279825ea82a4') in 0.003996 seconds
+  Import took 0.007209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.377437 seconds.
+  path: Assets/GameMain/Script/Utility/AssetUtility.cs
+  artifactKey: Guid(7af6059dd504240f888f96ee7a4fd8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Script/Utility/AssetUtility.cs using Guid(7af6059dd504240f888f96ee7a4fd8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952cb64e5a918ad7b48471fe9b350835') in 0.003590 seconds
+  Import took 0.006443 seconds .
+

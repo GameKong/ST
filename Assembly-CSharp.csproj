@@ -36,9 +36,20 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\GameMain\Script\ProcedureExample.cs" />
+     <Compile Include="Assets\GameMain\Script\Procedure\ProcedureExample.cs" />
      <Compile Include="Assets\GameMain\Res\player\Scripts\Swapper.cs" />
      <Compile Include="Assets\GameMain\Res\player\Scripts\AnimatorController.cs" />
+     <Compile Include="Assets\GameMain\Script\Entity\EntityExtension.cs" />
+     <Compile Include="Assets\GameMain\Script\Entity\EnityData\EntityData.cs" />
+     <Compile Include="Assets\GameMain\Script\Entity\EnityData\PlayerData.cs" />
+     <Compile Include="Assets\GameMain\Script\Entity\EnityData\TargetData.cs" />
+     <Compile Include="Assets\GameMain\Script\Entity\EntityLogic\EntityLogicBase.cs" />
+     <Compile Include="Assets\GameMain\Script\Entity\EntityLogic\TargetLogic.cs" />
+     <Compile Include="Assets\GameMain\Script\Entity\EntityLogic\PlayerLogic.cs" />
+     <Compile Include="Assets\GameMain\Script\Define\Emun\CampType.cs" />
+     <Compile Include="Assets\GameMain\Script\Define\Constant\Constant.Layer.cs" />
+     <Compile Include="Assets\GameMain\Script\Define\Constant\Constant.AssetPriority.cs" />
+     <Compile Include="Assets\GameMain\Script\Utility\AssetUtility.cs" />
      <None Include="Assets\GameMain\Res\player\UnityChanShader\Unitychan_chara_fuku.shader" />
      <None Include="Assets\GameMain\Res\player\UnityChanShader\Unitychan_chara_akarami_blend.shader" />
      <None Include="Assets\GameMain\Res\player\UnityChanShader\CharaOutline.cginc" />
@@ -51,6 +62,7 @@
      <None Include="Assets\GameMain\Res\player\UnityChanShader\CharaMain.cginc" />
      <None Include="Assets\GameMain\Res\player\UnityChanShader\Unitychan_chara_hada_blend.shader" />
      <None Include="Assets\GameMain\Res\player\UnityChanShader\readme.txt" />
+     <None Include="Assets\GameMain\DataTables\Entity.txt" />
      <None Include="Assets\GameMain\Res\player\UnityChanShader\CharaSkin.cginc" />
      <None Include="Assets\GameMain\Res\player\UnityChanShader\Unitychan_chara_eye.shader" />
      <None Include="Assets\GameMain\Res\player\UnityChanShader\Unitychan_chara_hair.shader" />
