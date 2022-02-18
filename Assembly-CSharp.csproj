@@ -37,8 +37,24 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\GameMain\Script\ProcedureExample.cs" />
+     <Compile Include="Assets\GameMain\Res\player\Scripts\Swapper.cs" />
+     <Compile Include="Assets\GameMain\Res\player\Scripts\AnimatorController.cs" />
+     <None Include="Assets\GameMain\Res\player\UnityChanShader\Unitychan_chara_fuku.shader" />
+     <None Include="Assets\GameMain\Res\player\UnityChanShader\Unitychan_chara_akarami_blend.shader" />
+     <None Include="Assets\GameMain\Res\player\UnityChanShader\CharaOutline.cginc" />
+     <None Include="Assets\GameMain\Res\player\UnityChanShader\Unitychan_chara_hair_ds.shader" />
+     <None Include="Assets\GameMain\Res\player\UnityChanShader\Unitychan_chara_hada.shader" />
      <None Include="Assets\GameFramework\Libraries\link.xml" />
      <None Include="Assets\GameFramework\Libraries\GameFramework.xml" />
+     <None Include="Assets\GameMain\Res\player\UnityChanShader\Unitychan_chara_fuku_ds.shader" />
+     <None Include="Assets\GameMain\Res\player\UnityChanShader\Unitychan_chara_eyelash_blend.shader" />
+     <None Include="Assets\GameMain\Res\player\UnityChanShader\CharaMain.cginc" />
+     <None Include="Assets\GameMain\Res\player\UnityChanShader\Unitychan_chara_hada_blend.shader" />
+     <None Include="Assets\GameMain\Res\player\UnityChanShader\readme.txt" />
+     <None Include="Assets\GameMain\Res\player\UnityChanShader\CharaSkin.cginc" />
+     <None Include="Assets\GameMain\Res\player\UnityChanShader\Unitychan_chara_eye.shader" />
+     <None Include="Assets\GameMain\Res\player\UnityChanShader\Unitychan_chara_hair.shader" />
+     <None Include="Assets\GameMain\Res\player\UnityChanShader\Unitychan_chara_eye_blend.shader" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.10f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -261,14 +277,14 @@
     <Reference Include="UnityEditor.UnityConnectModule">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.10f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-        <HintPath>/Users/kongling/project/ST/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+    <Reference Include="GameFramework">
+        <HintPath>/Users/kongling/project/ST/Assets/GameFramework/Libraries/GameFramework.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
         <HintPath>/Users/kongling/project/ST/Assets/GameFramework/Libraries/ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
-    <Reference Include="GameFramework">
-        <HintPath>/Users/kongling/project/ST/Assets/GameFramework/Libraries/GameFramework.dll</HintPath>
+    <Reference Include="Newtonsoft.Json">
+        <HintPath>/Users/kongling/project/ST/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.10f1c1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -647,13 +663,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="UnityGameFramework.Editor.csproj">
-      <Project>{00ec7293-f6cd-09ea-c704-e2580cfbba0b}</Project>
-      <Name>UnityGameFramework.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityGameFramework.Runtime.csproj">
       <Project>{671ac9df-5bc7-9cb5-d7ba-d41b22e09c27}</Project>
       <Name>UnityGameFramework.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityGameFramework.Editor.csproj">
+      <Project>{00ec7293-f6cd-09ea-c704-e2580cfbba0b}</Project>
+      <Name>UnityGameFramework.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

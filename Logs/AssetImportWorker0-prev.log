@@ -1,0 +1,634 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.10f1c1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/kongling/project/ST
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62897
+Successfully changed project path to: /Users/kongling/project/ST
+/Users/kongling/project/ST
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 44.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.10f1c1 (65978a05d4e9)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.10f1c1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/kongling/project/ST/Assets
+GfxDevice: creating device client; threaded=0
+2022-02-17 19:35:23.053 Unity[56873:484933] Color LCD preferred device: AMD Radeon Pro 5300M (high power)
+2022-02-17 19:35:23.053 Unity[56873:484933] Metal devices available: 2
+2022-02-17 19:35:23.053 Unity[56873:484933] 0: AMD Radeon Pro 5300M (high power)
+2022-02-17 19:35:23.053 Unity[56873:484933] 1: Intel(R) UHD Graphics 630 (low power)
+2022-02-17 19:35:23.054 Unity[56873:484933] Using device AMD Radeon Pro 5300M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5300M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.10f1c1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.10f1c1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.10f1c1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56873
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.10f1c1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000458 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 30.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.671 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004148 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.316 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.10f1c1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1672 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.3 MB.
+System memory in use after: 150.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2103.
+Total: 2.135730 ms (FindLiveObjects: 0.181856 ms CreateObjectMapping: 0.055108 ms MarkObjects: 1.812573 ms  DeleteObjects: 0.085307 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/GameMain/Res/sky/Allsky/allsky_day
+  artifactKey: Guid(06ec991c9062dc3418efde23591cecd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/allsky_day using Guid(06ec991c9062dc3418efde23591cecd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284dc4040e404cd100590765615f40fd') in 0.003781 seconds
+  Import took 0.006210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/GameMain/Res/sky/Allsky/allsky_day/Sun Horizon/Day Sun Horizon SimpleCloudLayer 2.png
+  artifactKey: Guid(c3946b98f27224b759541abf11360b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/allsky_day/Sun Horizon/Day Sun Horizon SimpleCloudLayer 2.png using Guid(c3946b98f27224b759541abf11360b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eacd6a6050e99cddd0aa7b034fb1754') in 0.471392 seconds
+  Import took 0.474406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/GameMain/Res/sky/Allsky/AllSky_SkyboxCubed.mat
+  artifactKey: Guid(8df7c7e6c891749daa0062874b7f9420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/AllSky_SkyboxCubed.mat using Guid(8df7c7e6c891749daa0062874b7f9420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54f78712f347832e4d967ade8a35c75') in 0.364838 seconds
+  Import took 0.368122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/GameMain/Res/sky/Allsky/allsky_day/Sun Horizon
+  artifactKey: Guid(21149f0cd750c2c48a667885ceca7eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/allsky_day/Sun Horizon using Guid(21149f0cd750c2c48a667885ceca7eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a8cad94ee6dd3fe103a72e32a1da94') in 0.000850 seconds
+  Import took 0.003363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/GameMain/Res/sky/Allsky/allsky_readme.txt
+  artifactKey: Guid(6461821842923475a9d4f072eab138e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/allsky_readme.txt using Guid(6461821842923475a9d4f072eab138e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf9e26fa6700c1467ed04a21a482a67') in 0.606277 seconds
+  Import took 0.609322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/GameMain/Res/sky/Allsky/allsky_day/Sun Horizon/Day Sun Horizon FogHigh.png
+  artifactKey: Guid(e5b98bd821fdd4903931bfae023d8339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/allsky_day/Sun Horizon/Day Sun Horizon FogHigh.png using Guid(e5b98bd821fdd4903931bfae023d8339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23d86ea065e30389fae0107e382c713') in 0.011652 seconds
+  Import took 0.014588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/GameMain/Res/sky/Allsky/allsky_day/Sun Horizon/Day Sun Horizon Overcast.png
+  artifactKey: Guid(faf0a686605244817935706d5914aaa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/allsky_day/Sun Horizon/Day Sun Horizon Overcast.png using Guid(faf0a686605244817935706d5914aaa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a362a5a3c3b2658370f92c07bb5c349c') in 0.009639 seconds
+  Import took 0.012587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/GameMain/Res/sky/Allsky/allsky_day/Sun Horizon/Day Sun Horizon Summersky.png
+  artifactKey: Guid(744c24b35367c47678e04602d9065816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/allsky_day/Sun Horizon/Day Sun Horizon Summersky.png using Guid(744c24b35367c47678e04602d9065816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98305b7c24f61325e72bf302b9392d1b') in 0.008912 seconds
+  Import took 0.011891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/GameMain/Res/sky/Allsky/allsky_day/Sun Horizon/Day Sun Horizon ClearHazy.png
+  artifactKey: Guid(7c18b5898207b4fae872913001847188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/allsky_day/Sun Horizon/Day Sun Horizon ClearHazy.png using Guid(7c18b5898207b4fae872913001847188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a804bc0fb578813b9c970a0fff62e5d9') in 0.009445 seconds
+  Import took 0.012065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/GameMain/Res/sky/Allsky/allsky_day/Sun Horizon/Day Sun Horizon HighColdCirrus.png
+  artifactKey: Guid(d1aa0561b9d3b4f50963537bec3d5cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/allsky_day/Sun Horizon/Day Sun Horizon HighColdCirrus.png using Guid(d1aa0561b9d3b4f50963537bec3d5cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179799004a8ff360d722204bab63b42b') in 0.009897 seconds
+  Import took 0.012697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/GameMain/Res/sky/Allsky
+  artifactKey: Guid(1854db5bdb55849b2a3d68b0a064ef21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky using Guid(1854db5bdb55849b2a3d68b0a064ef21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd8278cc59bbc5e10b5404b8737922b') in 0.000808 seconds
+  Import took 0.003037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/GameMain/Res/sky/Allsky/allsky_day/Sun Horizon/Day Sun Horizon Summersky 2.png
+  artifactKey: Guid(b9fe8c1d948a549308a3ec961aa34fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/allsky_day/Sun Horizon/Day Sun Horizon Summersky 2.png using Guid(b9fe8c1d948a549308a3ec961aa34fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7c548d5efbb0901511fb293edbcbaf') in 0.008902 seconds
+  Import took 0.011813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.008703 seconds.
+  path: Assets/GameMain/Res/sky/Allsky/allsky_day/Sun High/Day Sun High Autumnal.png
+  artifactKey: Guid(989607f542bb74c25bce4ea3159019df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/allsky_day/Sun High/Day Sun High Autumnal.png using Guid(989607f542bb74c25bce4ea3159019df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840e1392d93849a3028b28bfadaefbab') in 0.010638 seconds
+  Import took 0.014013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/GameMain/Res/sky/Allsky/allsky_day/Sun High/Day Sun High CloudsLayer 1.png
+  artifactKey: Guid(7bdb3f9b9354e43eca05d83ffc202fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/allsky_day/Sun High/Day Sun High CloudsLayer 1.png using Guid(7bdb3f9b9354e43eca05d83ffc202fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c1d9e0c64336f814809bff60c2e658') in 0.009799 seconds
+  Import took 0.012697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/GameMain/Res/sky/Allsky/allsky_day/Sun High/Day Sun High Overcast 2.png
+  artifactKey: Guid(55db294f724714168b13ceeb4371ff7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/allsky_day/Sun High/Day Sun High Overcast 2.png using Guid(55db294f724714168b13ceeb4371ff7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524aeb81212045ba39e2013e1347bf38') in 0.010067 seconds
+  Import took 0.013149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/GameMain/Res/sky/Allsky/allsky_day/Sun High/Day Sun High SummerSky.png
+  artifactKey: Guid(4647456abe07d4cf0a9d86cc710e56ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/allsky_day/Sun High/Day Sun High SummerSky.png using Guid(4647456abe07d4cf0a9d86cc710e56ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a1097b1459279128e2aa78e239b8b75') in 0.009322 seconds
+  Import took 0.012225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/GameMain/Res/sky/Allsky/allsky_day/Sun High/Day Sun High Overcast 1.png
+  artifactKey: Guid(76526bd72b29e463caa07fffaeca40ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/allsky_day/Sun High/Day Sun High Overcast 1.png using Guid(76526bd72b29e463caa07fffaeca40ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f33049b69e7d85881582779b9274965') in 0.010213 seconds
+  Import took 0.013436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/GameMain/Res/sky/Allsky/allsky_day/Sun High/Day Sun High CloudsLayer 2.png
+  artifactKey: Guid(f780bb646109d44c1b06d5f8b58881c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/allsky_day/Sun High/Day Sun High CloudsLayer 2.png using Guid(f780bb646109d44c1b06d5f8b58881c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92d6c4b81dc277aa30640924f405ee1') in 0.010199 seconds
+  Import took 0.012964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/GameMain/Res/sky/Allsky/allsky_day/Sun High/Day Sun High Clear.png
+  artifactKey: Guid(d8546817c7e9a468aabf7c184bc14c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/allsky_day/Sun High/Day Sun High Clear.png using Guid(d8546817c7e9a468aabf7c184bc14c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d68018025a1e39d18fe38c547a33f45') in 0.009540 seconds
+  Import took 0.012483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/GameMain/Res/sky/Allsky/allsky_day/Sun High/Day Sun High Summersky 2.png
+  artifactKey: Guid(3a8d2ea89d7434717ae709b325f8a7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/allsky_day/Sun High/Day Sun High Summersky 2.png using Guid(3a8d2ea89d7434717ae709b325f8a7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fda23705e283c87d103f81f855532e0') in 0.010738 seconds
+  Import took 0.013415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/GameMain/Res/sky/Allsky/allsky_day/Sun High/Day Sun High StormyCumulus.png
+  artifactKey: Guid(a9c0fc443d920479e8a858815b4cd4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/allsky_day/Sun High/Day Sun High StormyCumulus.png using Guid(a9c0fc443d920479e8a858815b4cd4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f9282d35b4781db36bec10fd303c3c') in 0.009331 seconds
+  Import took 0.012126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/GameMain/Res/sky/Allsky/allsky_day/Sun High/Day Sun High SimpleCloudLayer.png
+  artifactKey: Guid(ebcb3da4ff75642c5a8d21eabf48b57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/allsky_day/Sun High/Day Sun High SimpleCloudLayer.png using Guid(ebcb3da4ff75642c5a8d21eabf48b57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470959267bf23b22349d11b1bd024bcd') in 0.009465 seconds
+  Import took 0.012310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/GameMain/Res/sky/Allsky/allsky_day/Sun High/Day Sun High ClearHazy.png
+  artifactKey: Guid(0cd2b21fbb1b74cc39e11f225324c93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/allsky_day/Sun High/Day Sun High ClearHazy.png using Guid(0cd2b21fbb1b74cc39e11f225324c93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd725f38cc8b05b31564477683b4d7845') in 0.008933 seconds
+  Import took 0.011691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/GameMain/Res/sky/Allsky/allsky_day/Sun High/Day Sun High EpicDenseClouds.png
+  artifactKey: Guid(c6019ae4b66434d1ab87c5974960b816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/allsky_day/Sun High/Day Sun High EpicDenseClouds.png using Guid(c6019ae4b66434d1ab87c5974960b816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8452dd93e2a51fedbc22b48ae7a5402') in 0.009171 seconds
+  Import took 0.012122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/GameMain/Res/sky/Allsky/allsky_day/Sun High/Day Sun High FogHigh.png
+  artifactKey: Guid(e5ab16cd19bd74a748531a51993fefd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/allsky_day/Sun High/Day Sun High FogHigh.png using Guid(e5ab16cd19bd74a748531a51993fefd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9e349eaf23076dfea2a76581225f40') in 0.010240 seconds
+  Import took 0.013235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/GameMain/Res/sky/Allsky/allsky_day/Sun High/Day Sun High HorizonRich.png
+  artifactKey: Guid(8d211bf9d91334ad08785da7b632c0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/allsky_day/Sun High/Day Sun High HorizonRich.png using Guid(8d211bf9d91334ad08785da7b632c0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9743307612c877fe4a68ede93ac6792') in 0.009668 seconds
+  Import took 0.012781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.000554 seconds.
+  path: Assets/GameMain/Res/sky/Allsky/ExampleUsage
+  artifactKey: Guid(071438b841ef9234db681745f24e2151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/ExampleUsage using Guid(071438b841ef9234db681745f24e2151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117953cb0aa1890e79c2894712c14331') in 0.001030 seconds
+  Import took 0.003767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066243 seconds.
+  path: Assets/GameMain/Res/sky/Allsky/ExampleUsage/allsky_screenshot1.jpg
+  artifactKey: Guid(e78d5e52eb8ff451bbbdfece12d8dc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/ExampleUsage/allsky_screenshot1.jpg using Guid(e78d5e52eb8ff451bbbdfece12d8dc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a736b569cfc1d8ebcd0506766b145aa2') in 0.312052 seconds
+  Import took 0.314948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/GameMain/Res/sky/Allsky/ExampleUsage/allsky_screenshot2.jpg
+  artifactKey: Guid(755bc42aea33f4a019622a9783847f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/ExampleUsage/allsky_screenshot2.jpg using Guid(755bc42aea33f4a019622a9783847f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792557e10b5dce6fff5b90ae9ef50a28') in 0.009898 seconds
+  Import took 0.013027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/GameMain/Res/sky/Allsky/ExampleUsage/allsky_screenshot5.jpg
+  artifactKey: Guid(f3bb398c796ab45f98f514403b50116b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/ExampleUsage/allsky_screenshot5.jpg using Guid(f3bb398c796ab45f98f514403b50116b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ccd9719630451223f0ea9fa33e35961') in 0.008936 seconds
+  Import took 0.012309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/GameMain/Res/sky/Allsky/ExampleUsage/allsky_screenshot3.jpg
+  artifactKey: Guid(d647d43d25e704300b4d75fa606dbeb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/ExampleUsage/allsky_screenshot3.jpg using Guid(d647d43d25e704300b4d75fa606dbeb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff7b0c49fe9870d42ce41c340b724f5') in 0.008455 seconds
+  Import took 0.011646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/GameMain/Res/sky/Allsky/ExampleUsage/allsky_screenshot4.jpg
+  artifactKey: Guid(0a8df62c87aac43139352ef4625e21cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/ExampleUsage/allsky_screenshot4.jpg using Guid(0a8df62c87aac43139352ef4625e21cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc58543a2b6b800eb81d612379f0b309') in 0.009464 seconds
+  Import took 0.012275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/GameMain/Res/sky/Allsky/ExampleUsage/allsky_screenshot6.jpg
+  artifactKey: Guid(df3f2e6c7b5774791a5818d4784f1b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/ExampleUsage/allsky_screenshot6.jpg using Guid(df3f2e6c7b5774791a5818d4784f1b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bfbc6306c646246a493a0108b3e2631') in 0.008886 seconds
+  Import took 0.011993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.440097 seconds.
+  path: Assets/GameMain/Res/sky/Allsky/allsky_night
+  artifactKey: Guid(7cc1d3ea71a62534eb18f984e8d7b182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/Allsky/allsky_night using Guid(7cc1d3ea71a62534eb18f984e8d7b182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4163082c5ff697be6f4fc3b6f78ac29e') in 0.001120 seconds
+  Import took 0.003960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.532382 seconds.
+  path: Assets/GameMain/Res/sky/AllSky_SkyboxCubed.mat
+  artifactKey: Guid(8df7c7e6c891749daa0062874b7f9420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/AllSky_SkyboxCubed.mat using Guid(8df7c7e6c891749daa0062874b7f9420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7727cc1207e49661c30eaaa32b26f6') in 0.012596 seconds
+  Import took 0.015804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.860891 seconds.
+  path: Assets/GameMain/Res/sky/allsky_night/Skyglow/Night Skyglow foghigh.png
+  artifactKey: Guid(974727753f2f146ec91fe71de15db38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_night/Skyglow/Night Skyglow foghigh.png using Guid(974727753f2f146ec91fe71de15db38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55bcb901ccc280effe4333fe16ac3da9') in 0.013863 seconds
+  Import took 0.017098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.644804 seconds.
+  path: Assets/GameMain/Res/sky/allsky_night/Skyglow/Night Skyglow highcoldcirrus.png
+  artifactKey: Guid(66a191194974d4453bb5e022434e0ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_night/Skyglow/Night Skyglow highcoldcirrus.png using Guid(66a191194974d4453bb5e022434e0ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4aeec06299c5a1fbf2f2e9ec293571') in 0.012385 seconds
+  Import took 0.015426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.246683 seconds.
+  path: Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid Autumnal.png
+  artifactKey: Guid(998e9ac104c0e48fabff5e60f867dc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid Autumnal.png using Guid(998e9ac104c0e48fabff5e60f867dc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8febaf6acc8cea63c61dca8d9366c633') in 0.014029 seconds
+  Import took 0.017186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid Overcast2.png
+  artifactKey: Guid(d72d09849d93c42d899e14c1fae2407a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid Overcast2.png using Guid(d72d09849d93c42d899e14c1fae2407a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d8c4cfb9cc7887863e6910c153ebb3b') in 0.012551 seconds
+  Import took 0.015294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid Clear.png
+  artifactKey: Guid(3638ca5f0ebdf4082868634a4741c016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid Clear.png using Guid(3638ca5f0ebdf4082868634a4741c016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b1d8f3be2edb3b0134eeaac9dcfe05') in 0.013812 seconds
+  Import took 0.017034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid EpicHigh 3.png
+  artifactKey: Guid(4a457b5d543f94aa8ba2ecf16d43f506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid EpicHigh 3.png using Guid(4a457b5d543f94aa8ba2ecf16d43f506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ea189fcb181b0d84dfa0179e1e54eb') in 0.012686 seconds
+  Import took 0.015590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid Heavy.png
+  artifactKey: Guid(d7d77ebc2f2db411ca41b7bebd2e3ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid Heavy.png using Guid(d7d77ebc2f2db411ca41b7bebd2e3ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee17cf4c177ddfa72bd01072a60ab35') in 0.014454 seconds
+  Import took 0.017084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid SimpleCloudLayer 3.png
+  artifactKey: Guid(d37eb566e5d9547a68dd9bf94e83fcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid SimpleCloudLayer 3.png using Guid(d37eb566e5d9547a68dd9bf94e83fcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f397cfb6b162033aab6d7becc9630c3a') in 0.014024 seconds
+  Import took 0.017090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid EpicHigh.png
+  artifactKey: Guid(f94b3cff8d18b4dd6b2f69d031a1bd78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid EpicHigh.png using Guid(f94b3cff8d18b4dd6b2f69d031a1bd78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e95b3833ab61af9e4a933db00da4d3') in 0.014041 seconds
+  Import took 0.016770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid SummerSky.png
+  artifactKey: Guid(324a9c68817ba4f8f9bf62caeb1060d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid SummerSky.png using Guid(324a9c68817ba4f8f9bf62caeb1060d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d9660a0aeb9a93ca6bb60073ca2a30') in 0.012505 seconds
+  Import took 0.015238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun MId HorizonRich 2.png
+  artifactKey: Guid(04adf408699be471691891c1bc8c7182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun MId HorizonRich 2.png using Guid(04adf408699be471691891c1bc8c7182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78496e3ef1375e95e834031c040f3c58') in 0.012897 seconds
+  Import took 0.016082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid SummerSky 3.png
+  artifactKey: Guid(4eabdc180950840a698aee71f21aac9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid SummerSky 3.png using Guid(4eabdc180950840a698aee71f21aac9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f5d3ccd3c1ad6ebe29bc73c861112a') in 0.013405 seconds
+  Import took 0.016224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid CrepuscularStyle.png
+  artifactKey: Guid(abb20193f246c4beb980b4a26d74d6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid CrepuscularStyle.png using Guid(abb20193f246c4beb980b4a26d74d6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d392ecc817f004c489ce3f1fae2d563') in 0.013139 seconds
+  Import took 0.016085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid SimpleCloudLayer.png
+  artifactKey: Guid(8435e58e65b0c470cb30c9be99a6759c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid SimpleCloudLayer.png using Guid(8435e58e65b0c470cb30c9be99a6759c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61914824cb1e48d22e9141dc9b2932dd') in 0.013198 seconds
+  Import took 0.016058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid Overcast1.png
+  artifactKey: Guid(b0bec503e699044318e81f76bb545156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid Overcast1.png using Guid(b0bec503e699044318e81f76bb545156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd32333b2dd970b25cfae0acff56916f') in 0.014215 seconds
+  Import took 0.017060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid StormyCumulus.png
+  artifactKey: Guid(0636dbff6781641c4b438217026143b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid StormyCumulus.png using Guid(0636dbff6781641c4b438217026143b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e8f08798cf196e33db0ebe351bd8d4') in 0.012946 seconds
+  Import took 0.015787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid HighColdCirrus.png
+  artifactKey: Guid(55a423cc615a042c28ffb2b36bca097a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid HighColdCirrus.png using Guid(55a423cc615a042c28ffb2b36bca097a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3b6c936d0bf0acb49f5a3c4431b142') in 0.057316 seconds
+  Import took 0.062439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid Cloudslayer.png
+  artifactKey: Guid(fcb7a6a78b4ef4fd191ed48eeda8fded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid Cloudslayer.png using Guid(fcb7a6a78b4ef4fd191ed48eeda8fded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6315ae0bcf324cccf9327bbddfb0bdf') in 0.013750 seconds
+  Import took 0.017076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid CloudsLayered.png
+  artifactKey: Guid(f79b0ba5a27634cc6b1a988850ec6359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid CloudsLayered.png using Guid(f79b0ba5a27634cc6b1a988850ec6359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123d51e97f0013b79d55151521fdd2d2') in 0.015508 seconds
+  Import took 0.018438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid ClearHazy.png
+  artifactKey: Guid(6fc90382c5cfb498285e1bc60e97694d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid ClearHazy.png using Guid(6fc90382c5cfb498285e1bc60e97694d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf980cf2aefd24097a23d9a6ce8743de') in 0.012290 seconds
+  Import took 0.015119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid FogHigh.png
+  artifactKey: Guid(4c7bb70b8153346f9afb916598e18e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid FogHigh.png using Guid(4c7bb70b8153346f9afb916598e18e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58a0e8b323b6f24cb042eee06f776e0') in 0.014875 seconds
+  Import took 0.018507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid HorizonRich.png
+  artifactKey: Guid(c685bc550c093452c9b5a810c7133dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid HorizonRich.png using Guid(c685bc550c093452c9b5a810c7133dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ebc4b9fdcb1e87cb9773bf4b48beaed') in 0.013150 seconds
+  Import took 0.016670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid Summersky 2.png
+  artifactKey: Guid(ed59e208be0ac41358f41319c9eed5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_day/Sun Mid/Day Sun Mid Summersky 2.png using Guid(ed59e208be0ac41358f41319c9eed5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8c9717f74986a33bbb292e1c427981') in 0.012650 seconds
+  Import took 0.015666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.845748 seconds.
+  path: Assets/GameMain/Res/sky/allsky_day/Sun Low/Day Sun Low Autumnal.png
+  artifactKey: Guid(c996d068dd19949f280c776b9b2b6979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_day/Sun Low/Day Sun Low Autumnal.png using Guid(c996d068dd19949f280c776b9b2b6979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79533a51d219d33bf1a809bc1413b111') in 0.013387 seconds
+  Import took 0.016744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008404 seconds.
+  path: Assets/GameMain/Res/sky/allsky_day/Sun Low/Day Sun Low Autumnal.png
+  artifactKey: Guid(c996d068dd19949f280c776b9b2b6979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_day/Sun Low/Day Sun Low Autumnal.png using Guid(c996d068dd19949f280c776b9b2b6979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79533a51d219d33bf1a809bc1413b111') in 0.011738 seconds
+  Import took 0.014687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.364576 seconds.
+  path: Assets/GameMain/Res/sky/allsky_day/Sun Low/Day Sun Low Clear.png
+  artifactKey: Guid(b0380c849866a42b68cfa6bf6b94c25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_day/Sun Low/Day Sun Low Clear.png using Guid(b0380c849866a42b68cfa6bf6b94c25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb5a99e800fe03ee54d43f0d97fb7a2') in 0.012141 seconds
+  Import took 0.015376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/GameMain/Res/sky/allsky_day/Sun Low/Day Sun Low Clear.png
+  artifactKey: Guid(b0380c849866a42b68cfa6bf6b94c25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_day/Sun Low/Day Sun Low Clear.png using Guid(b0380c849866a42b68cfa6bf6b94c25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb5a99e800fe03ee54d43f0d97fb7a2') in 0.012550 seconds
+  Import took 0.015280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.373908 seconds.
+  path: Assets/GameMain/Res/sky/allsky_night/Moon Low/Night Moon Low CrepuscularStyle.png
+  artifactKey: Guid(a8de1129999cb45738ae5f12f408e79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_night/Moon Low/Night Moon Low CrepuscularStyle.png using Guid(a8de1129999cb45738ae5f12f408e79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25882e20f3b287a56cdad8b8a2d5f37') in 0.012811 seconds
+  Import took 0.016007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.330437 seconds.
+  path: Assets/GameMain/Res/sky/allsky_night/Moon Low/Night Moon Low EpicHigh.png
+  artifactKey: Guid(62a4adce327384617b17b25ad9884377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_night/Moon Low/Night Moon Low EpicHigh.png using Guid(62a4adce327384617b17b25ad9884377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36541b277ffb33b6adecc90a5935010') in 0.015190 seconds
+  Import took 0.018821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.296536 seconds.
+  path: Assets/GameMain/Res/sky/allsky_night/Moon Low/Night Moon Low Overcast2.png
+  artifactKey: Guid(ce601d152f58a415fb188db8d38423e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_night/Moon Low/Night Moon Low Overcast2.png using Guid(ce601d152f58a415fb188db8d38423e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc23052971df57219a787b034660edc9') in 0.012674 seconds
+  Import took 0.016536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.168791 seconds.
+  path: Assets/GameMain/Res/sky/allsky_night/Moon Rise/Night Moon Rise Clear.png
+  artifactKey: Guid(4bb3ad37d30054a23a538138275c1b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_night/Moon Rise/Night Moon Rise Clear.png using Guid(4bb3ad37d30054a23a538138275c1b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350db45dde445429f595b0d3a44d0152') in 0.012905 seconds
+  Import took 0.016599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003169 seconds.
+  path: Assets/GameMain/Res/sky/allsky_night/Moon Rise/Night Moon Rise Clear.png
+  artifactKey: Guid(4bb3ad37d30054a23a538138275c1b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_night/Moon Rise/Night Moon Rise Clear.png using Guid(4bb3ad37d30054a23a538138275c1b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350db45dde445429f595b0d3a44d0152') in 0.012474 seconds
+  Import took 0.015516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.309040 seconds.
+  path: Assets/GameMain/Res/sky/allsky_night/Skyglow/Night Skyglow Autumunal.png
+  artifactKey: Guid(6b9d543c76b25437eac8a3c83a7959c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_night/Skyglow/Night Skyglow Autumunal.png using Guid(6b9d543c76b25437eac8a3c83a7959c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935b02209066b5e1b0f58565b1d2576e') in 0.012479 seconds
+  Import took 0.015768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003483 seconds.
+  path: Assets/GameMain/Res/sky/allsky_night/Skyglow/Night Skyglow Autumunal.png
+  artifactKey: Guid(6b9d543c76b25437eac8a3c83a7959c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_night/Skyglow/Night Skyglow Autumunal.png using Guid(6b9d543c76b25437eac8a3c83a7959c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935b02209066b5e1b0f58565b1d2576e') in 0.012093 seconds
+  Import took 0.015155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.258632 seconds.
+  path: Assets/GameMain/Res/sky/allsky_night/Skyglow/Night Skyglow epichigh.png
+  artifactKey: Guid(bc1486a1138e547a0bfd8837191aff83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/allsky_night/Skyglow/Night Skyglow epichigh.png using Guid(bc1486a1138e547a0bfd8837191aff83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc244ce87c0eb6b5dcbf55e699d5dfb5') in 0.012629 seconds
+  Import took 0.015814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 144.204052 seconds.
+  path: Assets/GameMain/Res/sky/AllSky_SkyboxCubed.mat
+  artifactKey: Guid(8df7c7e6c891749daa0062874b7f9420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Res/sky/AllSky_SkyboxCubed.mat using Guid(8df7c7e6c891749daa0062874b7f9420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edaea01c9795a5635ae1c7815b10ec2c') in 0.016065 seconds
+  Import took 0.019113 seconds .
+
