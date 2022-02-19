@@ -9,7 +9,7 @@ namespace ST
         [SerializeField]
         private PlayerData m_PlayerData = null;
 
-        private Rect m_PlayerMoveBoundary = default(Rect);
+        //private Rect m_PlayerMoveBoundary = default(Rect);
         private Vector3 m_TargetPosition = Vector3.zero;
 
         protected override void OnInit(object userData)

@@ -4,10 +4,19 @@ using GameFramework.Procedure;
 using UnityGameFramework.Runtime;
 using ProcedureOwner = GameFramework.Fsm.IFsm<GameFramework.Procedure.IProcedureManager>;
 
-namespace GameFrameworkExample
+namespace ST
 {
     public class ProcedureExample : ProcedureBase
     {
+
+        public override bool UseNativeDialog
+        {
+            get
+            {
+                return true;
+            }
+        }
+
         protected override void OnEnter(ProcedureOwner procedureOwner)
         {
             base.OnEnter(procedureOwner);
