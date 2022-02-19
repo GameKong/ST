@@ -56,37 +56,40 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/GameMain/Script/Editor/DataTableGenerator/DataTableProcessor.UInt16Processor.cs" />
-    <Compile Include="Assets/GameMain/Script/Editor/DataTableGenerator/DataTableProcessor.DecimalProcessor.cs" />
-    <Compile Include="Assets/GameMain/Script/Editor/DataTableGenerator/DataTableProcessor.RectProcessor.cs" />
-    <Compile Include="Assets/GameMain/Script/Editor/DataTableGenerator/DataTableProcessor.QuaternionProcessor.cs" />
-    <Compile Include="Assets/GameMain/Script/Editor/DataTableGenerator/DataTableProcessor.BooleanProcessor.cs" />
-    <Compile Include="Assets/GameMain/Script/Editor/DataTableGenerator/DataTableProcessor.Vector4Processor.cs" />
-    <Compile Include="Assets/GameMain/Script/Editor/DataTableGenerator/DataTableProcessor.DataProcessorUtility.cs" />
-    <Compile Include="Assets/GameMain/Script/Editor/DataTableGenerator/DataTableGenerator.cs" />
-    <Compile Include="Assets/GameMain/Script/Editor/DataTableGenerator/DataTableProcessor.GenericDataProcessor.cs" />
-    <Compile Include="Assets/GameMain/Script/Editor/DataTableGenerator/DataTableProcessor.cs" />
-    <Compile Include="Assets/GameMain/Script/Editor/DataTableGenerator/DataTableProcessor.Int16Processor.cs" />
-    <Compile Include="Assets/GameMain/Script/Editor/DataTableGenerator/DataTableProcessor.UInt64Processor.cs" />
-    <Compile Include="Assets/GameMain/Script/Editor/DataTableGenerator/DataTableGeneratorMenu.cs" />
-    <Compile Include="Assets/GameMain/Script/Editor/DataTableGenerator/DataTableProcessor.IdProcessor.cs" />
-    <Compile Include="Assets/GameMain/Script/Editor/DataTableGenerator/DataTableProcessor.Vector2Processor.cs" />
-    <Compile Include="Assets/GameMain/Script/Editor/DataTableGenerator/DataTableProcessor.Vector3Processor.cs" />
-    <Compile Include="Assets/GameMain/Script/Editor/DataTableGenerator/DataTableProcessor.Int64Processor.cs" />
-    <Compile Include="Assets/GameMain/Script/Editor/DataTableGenerator/DataTableProcessor.UInt32Processor.cs" />
-    <Compile Include="Assets/GameMain/Script/Editor/DataTableGenerator/DataTableProcessor.SByteProcessor.cs" />
-    <Compile Include="Assets/GameMain/Script/Editor/DataTableGenerator/DataTableProcessor.SingleProcessor.cs" />
-    <Compile Include="Assets/GameMain/Script/Editor/DataTableGenerator/DataTableProcessor.ByteProcessor.cs" />
-    <Compile Include="Assets/GameMain/Script/Editor/DataTableGenerator/DataTableProcessor.CommentProcessor.cs" />
-    <Compile Include="Assets/GameMain/Script/Editor/DataTableGenerator/DataTableProcessor.Color32Processor.cs" />
-    <Compile Include="Assets/GameMain/Script/Editor/DataTableGenerator/DataTableProcessor.DateTimeProcessor.cs" />
-    <Compile Include="Assets/GameMain/Script/Editor/DataTableGenerator/DataTableProcessor.Int32Processor.cs" />
-    <Compile Include="Assets/GameMain/Script/Editor/DataTableGenerator/DataTableCodeGenerator.cs" />
-    <Compile Include="Assets/GameMain/Script/Editor/DataTableGenerator/DataTableProcessor.CharProcessor.cs" />
-    <Compile Include="Assets/GameMain/Script/Editor/DataTableGenerator/DataTableProcessor.DoubleProcessor.cs" />
-    <Compile Include="Assets/GameMain/Script/Editor/DataTableGenerator/DataTableProcessor.StringProcessor.cs" />
-    <Compile Include="Assets/GameMain/Script/Editor/DataTableGenerator/DataTableProcessor.ColorProcessor.cs" />
-    <Compile Include="Assets/GameMain/Script/Editor/DataTableGenerator/DataTableProcessor.DataProcessor.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.UInt16Processor.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.DecimalProcessor.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.RectProcessor.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.QuaternionProcessor.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.BooleanProcessor.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.Vector4Processor.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.DataProcessorUtility.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableGenerator.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.GenericDataProcessor.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.Int16Processor.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.UInt64Processor.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableGeneratorMenu.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.IdProcessor.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.Vector2Processor.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.Vector3Processor.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.Int64Processor.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.UInt32Processor.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.SByteProcessor.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.SingleProcessor.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.ByteProcessor.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.CommentProcessor.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.Color32Processor.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.DateTimeProcessor.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.Int32Processor.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableCodeGenerator.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.CharProcessor.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.DoubleProcessor.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.StringProcessor.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.ColorProcessor.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableProcessor.DataProcessor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets/GameMain/Scripts/Editor/DataTableGenerator/DataTableCodeTemplate.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

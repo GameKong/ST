@@ -56,25 +56,27 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/GameMain/Script/Define/Constant/Constant.AssetPriority.cs" />
-    <Compile Include="Assets/GameMain/Script/Entity/EntityLogic/PlayerLogic.cs" />
-    <Compile Include="Assets/GameMain/Script/Procedure/ProcedureExample.cs" />
-    <Compile Include="Assets/GameMain/Script/Define/Emun/CampType.cs" />
-    <Compile Include="Assets/GameMain/Script/Entity/EnityData/TargetData.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Define/Constant/Constant.AssetPriority.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Entity/EntityLogic/PlayerLogic.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Procedure/ProcedureExample.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Define/Emun/CampType.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Entity/EnityData/TargetData.cs" />
     <Compile Include="Assets/GameMain/Res/player/Scripts/AnimatorController.cs" />
-    <Compile Include="Assets/GameMain/Script/Entity/EntityLogic/TargetLogic.cs" />
-    <Compile Include="Assets/GameMain/Script/Entity/EntityLogic/EntityLogicBase.cs" />
-    <Compile Include="Assets/GameMain/Script/Entity/EntityExtension.cs" />
-    <Compile Include="Assets/GameMain/Script/Utility/AssetUtility.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Entity/EntityLogic/TargetLogic.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Entity/EntityLogic/EntityLogicBase.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Entity/EntityExtension.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Utility/AssetUtility.cs" />
     <Compile Include="Assets/GameMain/Res/player/Scripts/Swapper.cs" />
-    <Compile Include="Assets/GameMain/Script/Entity/EnityData/EntityData.cs" />
-    <Compile Include="Assets/GameMain/Script/Define/Constant/Constant.Layer.cs" />
-    <Compile Include="Assets/GameMain/Script/Entity/EnityData/PlayerData.cs" />
-    <Compile Include="Assets/GameMain/Script/Procedure/ProcedureBase.cs" />
-    <Compile Include="Assets/GameMain/Script/Procedure/ProcedurePreload.cs" />
-    <Compile Include="Assets/GameMain/Script/Entry/GameEntry.cs" />
-    <Compile Include="Assets/GameMain/Script/Entry/GameEntry.Custom.cs" />
-    <Compile Include="Assets/GameMain/Script/Entry/GameEntry.BuildIn.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Entity/EnityData/EntityData.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Define/Constant/Constant.Layer.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Entity/EnityData/PlayerData.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Procedure/ProcedureBase.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Procedure/ProcedurePreload.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Entry/GameEntry.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Entry/GameEntry.Custom.cs" />
+    <Compile Include="Assets/GameMain/Scripts/Entry/GameEntry.BuildIn.cs" />
+    <Compile Include="Assets/GameMain/Scripts/DataTable/DREntity.cs" />
+    <Compile Include="Assets/GameMain/Scripts/DataTable/DataTableExtension.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/GameMain/Res/player/UnityChanShader/Unitychan_chara_fuku.shader" />
