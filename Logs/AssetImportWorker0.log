@@ -556,3 +556,11 @@ System memory in use after: 171.1 MB.
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2217.
 Total: 2.085014 ms (FindLiveObjects: 0.186243 ms CreateObjectMapping: 0.062529 ms MarkObjects: 1.775489 ms  DeleteObjects: 0.059657 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 33025.190394 seconds.
+  path: Assets/GameMain/Scripts/DataTable/DREntity.cs
+  artifactKey: Guid(737177527226149ecb5def9dbca7a404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameMain/Scripts/DataTable/DREntity.cs using Guid(737177527226149ecb5def9dbca7a404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c0b9f90595fe0dec6b087c8fccf8be') in 0.077919 seconds
+  Import took 0.152951 seconds .
+
