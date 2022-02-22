@@ -65,14 +65,14 @@ namespace ST
                 }
             }
 
-            //procedureOwner.SetData<VarInt32>("NextSceneId", GameEntry.Config.GetInt("Scene.Menu"));
-            //ChangeState<ProcedureChangeScene>(procedureOwner);
+            procedureOwner.SetData<VarByte>("GameMode", (byte)GameMode.Survival);
+            ChangeState<ProcedureMain>(procedureOwner);
         }
 
         private void PreloadResources()
         {
             // Preload configs
-            LoadConfig("DefaultConfig");
+            //LoadConfig("DefaultConfig");
 
             // Preload data tables
             foreach (string dataTableName in DataTableNames)
@@ -81,10 +81,10 @@ namespace ST
             }
 
             // Preload dictionaries
-            LoadDictionary("Default");
+            //LoadDictionary("Default");
 
-            // Preload fonts
-            LoadFont("MainFont");
+            //// Preload fonts
+            //LoadFont("MainFont");
         }
 
         private void LoadConfig(string configName)
@@ -98,7 +98,7 @@ namespace ST
         {
             string dataTableAssetName = AssetUtility.GetDataTableAsset(dataTableName, false);
             m_LoadedFlag.Add(dataTableAssetName, false);
-            //GameEntry.DataTable.LoadDataTable(dataTableName, dataTableAssetName, this);
+            GameEntry.DataTable.LoadDataTable(dataTableName, dataTableAssetName, this);
         }
 
         private void LoadDictionary(string dictionaryName)

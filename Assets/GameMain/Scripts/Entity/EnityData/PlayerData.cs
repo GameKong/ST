@@ -6,7 +6,7 @@ using UnityEngine;
 namespace ST
 {
     [Serializable]
-    public abstract class PlayerData : TargetData
+    public class PlayerData : TargetData
     {
         // [SerializeField]
         // private ThrusterData m_ThrusterData = null;
@@ -16,6 +16,9 @@ namespace ST
 
         // [SerializeField]
         // private List<ArmorData> m_ArmorDatas = new List<ArmorData>();
+
+        [SerializeField]
+        private string m_Name = null;
 
         [SerializeField]
         private int m_MaxHP = 0;
@@ -28,6 +31,21 @@ namespace ST
 
         [SerializeField]
         private int m_DeadSoundId = 0;
+
+        /// <summary>
+        /// 角色名称。
+        /// </summary>
+        public string Name
+        {
+            get
+            {
+                return m_Name;
+            }
+            set
+            {
+                m_Name = value;
+            }
+        }
 
         public PlayerData(int entityId, int typeId, CampType camp)
             : base(entityId, typeId, camp)

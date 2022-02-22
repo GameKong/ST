@@ -1,25 +1,48 @@
 ﻿
+using System;
+using System.Reflection;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityGameFramework;
 using UnityGameFramework.Runtime;
-
+using GameFramework.Fsm;
 namespace ST
 {
     public class PlayerLogic : TargetLogic
     {
         [SerializeField]
         private PlayerData m_PlayerData = null;
+        private float m_SpeedMove = 5f;
+        private float m_RotateSpeed = 5f;
+        private float m_Gravity = -9.8f * 2f;
+        private float m_JumpHeight = 3f;
+        private bool m_StartJump = false;
+        private float m_MoveDirection = 0f;
+        private Vector3 m_GravitySpeed = Vector3.zero;
+        public Transform GroundCheck;
+        public float CheckRadius = 0.55f;
+        public LayerMask GroundLayerMask;
+        private CharacterController m_PlayerController;
 
-        //private Rect m_PlayerMoveBoundary = default(Rect);
-        private Vector3 m_TargetPosition = Vector3.zero;
+        /// <summary>
+        /// 玩家控制器。
+        /// </summary>
+        public CharacterController PlayerController
+        {
+            get
+            {
+                return m_PlayerController;
+            }
+
+            set
+            {
+                m_PlayerController = value;
+            }
+        }
 
         protected override void OnInit(object userData)
         {
             base.OnInit(userData);
-        }
-
-        protected override void OnShow(object userData)
-        {
-            base.OnShow(userData);
 
             m_PlayerData = userData as PlayerData;
             if (m_PlayerData == null)
@@ -27,6 +50,44 @@ namespace ST
                 Log.Error("My aircraft data is invalid.");
                 return;
             }
+
+            m_PlayerController = GetComponent<CharacterController>();
+        }
+
+        protected override void OnShow(object userData)
+        {
+            base.OnShow(userData);
+
+            // GroundCheck
+            GroundCheck = transform.Find("GroundCheck");
+            GroundLayerMask = (LayerMask)LayerMask.GetMask("Ground");
+
+            // 摄像机跟随玩家
+            GameEntry.Cinemachine.LookAt = CachedTransform;
+            GameEntry.Cinemachine.Follow = CachedTransform;
+
+            //创建玩家状态列表
+            List<PlayerState> states = new List<PlayerState>();
+            Type stateBaseType = typeof(PlayerState);
+            Assembly assembly = Assembly.GetExecutingAssembly();
+            Type[] types = assembly.GetTypes();
+            for (int i = 0; i < types.Length; i++)
+            {
+                if (!types[i].IsClass || types[i].IsAbstract)
+                {
+                    continue;
+                }
+
+                if (stateBaseType.IsAssignableFrom(types[i]))
+                {
+                    PlayerState stateInstance = (PlayerState)Activator.CreateInstance(types[i]);
+                    states.Add(stateInstance);
+                }
+            }
+
+            // 创建玩家有限状态机
+            GameFramework.Fsm.IFsm<PlayerLogic> fsm = GameEntry.Fsm.CreateFsm<PlayerLogic>("player", this, states.ToArray());
+            fsm.Start<IdleState>();
 
             // ScrollableBackground sceneBackground = FindObjectOfType<ScrollableBackground>();
             // if (sceneBackground == null)
@@ -43,30 +104,56 @@ namespace ST
         {
             base.OnUpdate(elapseSeconds, realElapseSeconds);
 
-            // if (Input.GetMouseButton(0))
-            // {
-            //     Vector3 point = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            //     m_TargetPosition = new Vector3(point.x, 0f, point.z);
+            GravityProcess();
+        }
 
-            //     for (int i = 0; i < m_Weapons.Count; i++)
-            //     {
-            //         m_Weapons[i].TryAttack();
-            //     }
-            // }
+        private void GravityProcess()
+        {
+            if (!IsInGround())
+            {
+                m_GravitySpeed.y += m_Gravity * Time.deltaTime;
+                PlayerController.Move(m_GravitySpeed * Time.deltaTime);
+            }
+            else if (m_StartJump)
+            {
+                m_StartJump = false;
+                m_GravitySpeed = Vector3.zero;
+                m_GravitySpeed = m_MoveDirection * transform.forward * m_SpeedMove;
+                m_GravitySpeed.y = Mathf.Sqrt(m_JumpHeight * -2 * m_Gravity);
+                PlayerController.Move(m_GravitySpeed * Time.deltaTime);
+            }
+        }
 
-            // Vector3 direction = m_TargetPosition - CachedTransform.localPosition;
-            // if (direction.sqrMagnitude <= Vector3.kEpsilon)
-            // {
-            //     return;
-            // }
+        public void Move(float moveVector)
+        {
+            float direct = moveVector >= 0 ? 1 : -1;
+            Vector3 move = transform.forward * direct * m_SpeedMove;
+            PlayerController.Move(move * Time.deltaTime);
+        }
 
-            // Vector3 speed = Vector3.ClampMagnitude(direction.normalized * m_PlayerData.Speed * elapseSeconds, direction.magnitude);
-            // CachedTransform.localPosition = new Vector3
-            // (
-            //     Mathf.Clamp(CachedTransform.localPosition.x + speed.x, m_PlayerMoveBoundary.xMin, m_PlayerMoveBoundary.xMax),
-            //     0f,
-            //     Mathf.Clamp(CachedTransform.localPosition.z + speed.z, m_PlayerMoveBoundary.yMin, m_PlayerMoveBoundary.yMax)
-            // );
+        public void Jump(float v)
+        {
+            m_StartJump = true;
+
+            if (v == 0)
+            {
+                m_MoveDirection = 0;
+            }
+            else
+            {
+                m_MoveDirection = v >= 0 ? 1 : -1;
+            }
+        }
+
+        public void Swerve(float v)
+        {
+            float rotate = v >= 0 ? 1 : -1;
+            transform.Rotate(Vector3.up, rotate * m_RotateSpeed);
+        }
+
+        public bool IsInGround()
+        {
+            return Physics.CheckSphere(GroundCheck.position, CheckRadius, GroundLayerMask);
         }
     }
 }

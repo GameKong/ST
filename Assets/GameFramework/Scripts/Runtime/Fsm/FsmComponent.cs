@@ -174,8 +174,15 @@ namespace UnityGameFramework.Runtime
         /// <param name="states">有限状态机状态集合。</param>
         /// <returns>要创建的有限状态机。</returns>
         public IFsm<T> CreateFsm<T>(string name, T owner, params FsmState<T>[] states) where T : class
-        {
-            return m_FsmManager.CreateFsm(name, owner, states);
+        { 
+            Debug.Log(m_FsmManager);
+
+            IFsm<T> a = m_FsmManager.CreateFsm(name, owner, states);
+            
+            Debug.Log(a);
+            Debug.Log("xx");
+
+            return a;
         }
 
         /// <summary>

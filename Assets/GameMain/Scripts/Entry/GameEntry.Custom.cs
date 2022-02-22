@@ -7,11 +7,11 @@ namespace ST
     /// </summary>
     public partial class GameEntry : MonoBehaviour
     {
-        //public static BuiltinDataComponent BuiltinData
-        //{
-        //    get;
-        //    private set;
-        //}
+        public static Cinemachine.CinemachineVirtualCamera Cinemachine
+        {
+           get;
+           private set;
+        }
 
         //public static HPBarComponent HPBar
         //{
@@ -21,7 +21,7 @@ namespace ST
 
         private static void InitCustomComponents()
         {
-            //BuiltinData = UnityGameFramework.Runtime.GameEntry.GetComponent<BuiltinDataComponent>();
+            Cinemachine = UnityGameFramework.Runtime.GameEntry.GetComponent<CustomCinemachine>().Cinemachine;
             //HPBar = UnityGameFramework.Runtime.GameEntry.GetComponent<HPBarComponent>();
         }
     }
