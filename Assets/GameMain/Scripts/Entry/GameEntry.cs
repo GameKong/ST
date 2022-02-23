@@ -11,6 +11,7 @@ namespace ST
         {
             InitBuildInComponents();
             InitCustomComponents();
+            // DynamicGI.UpdateEnvironment();
         }
     }
 }

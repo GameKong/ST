@@ -20,7 +20,7 @@ namespace ST
         private float m_MoveDirection = 0f;
         private Vector3 m_GravitySpeed = Vector3.zero;
         public Transform GroundCheck;
-        public float CheckRadius = 0.55f;
+        public float CheckRadius = 0.1f;
         public LayerMask GroundLayerMask;
         private CharacterController m_PlayerController;
 

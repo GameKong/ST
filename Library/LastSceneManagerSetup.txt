@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/AmplifyShaderEditor/Examples/Built-In/Outline/Outline.unity
+- path: Assets/GameMain/Scene/MainScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
