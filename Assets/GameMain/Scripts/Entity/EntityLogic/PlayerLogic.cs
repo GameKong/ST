@@ -13,7 +13,7 @@ namespace ST
         [SerializeField]
         private PlayerData m_PlayerData = null;
         private float m_SpeedMove = 5f;
-        private float m_RotateSpeed = 5f;
+        private float m_RotateSpeed = 3f;
         private float m_Gravity = -9.8f * 2f;
         private float m_JumpHeight = 3f;
         private bool m_StartJump = false;

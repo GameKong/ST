@@ -283,8 +283,8 @@ Light:
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
+    m_Bias: 0.02
+    m_NormalBias: 0.3
     m_NearPlane: 0.2
     m_CullingMatrixOverride:
       e00: 1
@@ -520,6 +520,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: af2f78f5233864e20ad3876d37651545, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 653b0fff082caf549a07767b0161c779, type: 2}
     - target: {fileID: 919132149155446097, guid: af2f78f5233864e20ad3876d37651545, type: 3}
       propertyPath: m_Name
       value: Stonehenge_04
@@ -590,6 +594,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0c249cdfe9437479993e8f5dd26bc1a7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 653b0fff082caf549a07767b0161c779, type: 2}
     - target: {fileID: 919132149155446097, guid: 0c249cdfe9437479993e8f5dd26bc1a7, type: 3}
       propertyPath: m_Name
       value: Stonehenge_03
@@ -660,6 +668,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f055b3237ef8743b28368246701019ca, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 653b0fff082caf549a07767b0161c779, type: 2}
     - target: {fileID: 919132149155446097, guid: f055b3237ef8743b28368246701019ca, type: 3}
       propertyPath: m_Name
       value: Stonehenge_01
@@ -964,6 +976,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 595d19c8e4dc4475aa67e424a892e429, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 653b0fff082caf549a07767b0161c779, type: 2}
     - target: {fileID: 919132149155446097, guid: 595d19c8e4dc4475aa67e424a892e429, type: 3}
       propertyPath: m_Name
       value: Stonehenge_06
@@ -1643,6 +1659,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8165ccf8ec4e54ef8a93c2b385e0f84c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 653b0fff082caf549a07767b0161c779, type: 2}
     - target: {fileID: 919132149155446097, guid: 8165ccf8ec4e54ef8a93c2b385e0f84c, type: 3}
       propertyPath: m_Name
       value: Stonehenge_07
@@ -2059,6 +2079,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 954ab0021c6b14f05b1437d4b027e2f3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 653b0fff082caf549a07767b0161c779, type: 2}
     - target: {fileID: 919132149155446097, guid: 954ab0021c6b14f05b1437d4b027e2f3, type: 3}
       propertyPath: m_Name
       value: Stonehenge_05
@@ -2629,6 +2653,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0e03f2691d3e54381b5d4929dad2e36a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 653b0fff082caf549a07767b0161c779, type: 2}
     - target: {fileID: 919132149155446097, guid: 0e03f2691d3e54381b5d4929dad2e36a, type: 3}
       propertyPath: m_Name
       value: Stonehenge_02
