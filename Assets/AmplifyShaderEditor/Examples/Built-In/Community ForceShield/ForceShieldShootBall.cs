@@ -20,7 +20,7 @@ namespace TFHC_ForceShield_Shader_Sample
             {
                 Vector3 targetpoint = new Vector3(Input.mousePosition.x, Input.mousePosition.y, distance);
                 targetpoint = Camera.main.ScreenToWorldPoint(targetpoint);
-                Rigidbody bulletInstance = Instantiate(bullet, transform.position, Quaternion.identity) as Rigidbody;
+                Rigidbody bulletInstance = Instantiate(bullet, new Vector3(transform.position.x, transform.position.y + 0.7f, transform.position.z), Quaternion.identity) as Rigidbody;
                 bulletInstance.transform.LookAt(targetpoint);
                 bulletInstance.AddForce(bulletInstance.transform.forward * speed);
             }
