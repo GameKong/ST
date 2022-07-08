@@ -70,13 +70,13 @@ Material:
     - _DetailNormalMapScale: 1
     - _DistortionStrength: 2
     - _DstBlend: 0
-    - _FoamThreshold: 0.108
+    - _FoamThreshold: 0.114
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
-    - _NoiseThreshold: 0.664
+    - _NoiseThreshold: 0.627
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0

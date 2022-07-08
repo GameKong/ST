@@ -5042,7 +5042,7 @@ GameObject:
   - component: {fileID: 2758045398091281350}
   - component: {fileID: 2817956173586180090}
   - component: {fileID: 2241959388052205582}
-  - component: {fileID: 4246520010338846145}
+  - component: {fileID: 3489963773637565284}
   m_Layer: 0
   m_Name: Hoshi2
   m_TagString: Untagged
@@ -5106,7 +5106,7 @@ CharacterController:
   m_SkinWidth: 0.0001
   m_MinMoveDistance: 0
   m_Center: {x: 0, y: 0.8, z: 0}
---- !u!114 &4246520010338846145
+--- !u!114 &3489963773637565284
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5118,7 +5118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 869dc0621bfc842d6bb38d58e3025f3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 54000011845670726, guid: 0b6b3cb2192124894abdbcf3d1818e77, type: 3}
+  bullet: {fileID: 6735307024542754205, guid: 1cc9101630e644fbcbcd17f75b6db54d, type: 3}
   origshoot: {fileID: 0}
   speed: 1000
 --- !u!1 &2760077925358266498
