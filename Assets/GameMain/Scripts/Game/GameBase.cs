@@ -41,7 +41,7 @@ namespace ST
             GameEntry.Entity.ShowPlayer(new PlayerData(GameEntry.Entity.GenerateSerialId(), 10000, CampType.Player)
             {
                 Name = "Player",
-                Position = new Vector3(15, 7.7f, -34),
+                Position = new Vector3(11, 7.7f, 0),
             });
 
             GameOver = false;
